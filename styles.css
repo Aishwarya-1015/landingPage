@@ -1,0 +1,98 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/* Apply a background image to the hero section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* .hero-content {
+    background-image: url('hero-background.jpg');
+} */
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the CTA button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Style destination and tour cards */
+.destination, .tour {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.destination img, .tour img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+/* Style the newsletter form */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
